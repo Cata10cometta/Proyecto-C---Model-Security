@@ -4,14 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e481d643a9dd4114b00a44d371daf91a" Name="Diagram1" ZoomLevel="44" >
+      <Diagram DiagramId="e481d643a9dd4114b00a44d371daf91a" Name="Diagram1" ZoomLevel="24" >
         <EntityTypeShape EntityType="DbModel.User" Width="1.5" PointX="1.125" PointY="4.75" />
         <EntityTypeShape EntityType="DbModel.Rol" Width="1.5" PointX="3.75" PointY="7.625" FillColor="0, 122, 204" />
         <EntityTypeShape EntityType="DbModel.Module" Width="1.5" PointX="3.25" PointY="1" />
         <EntityTypeShape EntityType="DbModel.Form" Width="1.5" PointX="8.125" PointY="4.5" />
         <EntityTypeShape EntityType="DbModel.FormModule" Width="1.5" PointX="5.375" PointY="1" FillColor="255, 192, 255" />
         <EntityTypeShape EntityType="DbModel.RolUser" Width="1.5" PointX="1.25" PointY="8.125" FillColor="255, 192, 255" />
-        <EntityTypeShape EntityType="DbModel.RolFormPermission" Width="1.5" PointX="6.125" PointY="8" FillColor="255, 192, 255" />
+        <EntityTypeShape EntityType="DbModel.RolFormPermission" Width="1.5" PointX="6.375" PointY="8" FillColor="255, 192, 255" />
         <EntityTypeShape EntityType="DbModel.ChangeLog" Width="1.5" PointX="8.5" PointY="1.375" />
         <AssociationConnector Association="DbModel.RolUserUser" />
         <AssociationConnector Association="DbModel.RolUserRol" />
@@ -21,6 +21,52 @@
         <AssociationConnector Association="DbModel.RolFormPermissionForm" />
         <EntityTypeShape EntityType="DbModel.Person" Width="1.5" PointX="0.875" PointY="1" />
         <AssociationConnector Association="DbModel.PersonUser" />
+        <EntityTypeShape EntityType="DbModel.Usuario" Width="1.625" PointX="29.125" PointY="10.625" FillColor="192, 192, 255" />
+        <EntityTypeShape EntityType="DbModel.Rol1" Width="1.625" PointX="29.125" PointY="4.125" FillColor="192, 192, 255" />
+        <EntityTypeShape EntityType="DbModel.RolPermission" Width="1.625" PointX="31.5" PointY="0.75" FillColor="128, 255, 255" />
+        <EntityTypeShape EntityType="DbModel.UsuarioRol" Width="1.625" PointX="31.375" PointY="11" FillColor="192, 192, 255" />
+        <EntityTypeShape EntityType="DbModel.Permission" Width="1.625" PointX="29.125" PointY="1.25" FillColor="128, 255, 255" />
+        <EntityTypeShape EntityType="DbModel.HistoryExperience" Width="1.625" PointX="35.875" PointY="12.875" />
+        <EntityTypeShape EntityType="DbModel.State" Width="1.625" PointX="33.625" PointY="15.375" />
+        <EntityTypeShape EntityType="DbModel.Evaluation" Width="1.625" PointX="31.375" PointY="16.25" />
+        <EntityTypeShape EntityType="DbModel.EvaluationCriteria" Width="1.625" PointX="33.625" PointY="18" />
+        <EntityTypeShape EntityType="DbModel.Criteria" Width="1.625" PointX="35.875" PointY="18.125" />
+        <EntityTypeShape EntityType="DbModel.Experience" Width="1.625" PointX="34.375" PointY="6.5" />
+        <EntityTypeShape EntityType="DbModel.Objective" Width="1.625" PointX="36.625" PointY="5.75" />
+        <EntityTypeShape EntityType="DbModel.ExperiencePopulationGroup" Width="1.625" PointX="36.625" PointY="8.75" />
+        <EntityTypeShape EntityType="DbModel.PopulationGroup" Width="1.625" PointX="38.875" PointY="8.75" />
+        <EntityTypeShape EntityType="DbModel.verification" Width="1.625" PointX="36.625" PointY="3.125" />
+        <EntityTypeShape EntityType="DbModel.ExperienceGrade" Width="1.625" PointX="32.125" PointY="7" />
+        <EntityTypeShape EntityType="DbModel.Grade" Width="1.625" PointX="29.875" PointY="7.25" />
+        <EntityTypeShape EntityType="DbModel.Institution" Width="1.625" PointX="29.125" PointY="15" />
+        <EntityTypeShape EntityType="DbModel.Document" Width="1.625" PointX="32.125" PointY="3.75" />
+        <EntityTypeShape EntityType="DbModel.ExperienceLineThematic" Width="1.625" PointX="38.625" PointY="11.375" />
+        <EntityTypeShape EntityType="DbModel.LineThematic" Width="1.625" PointX="36.375" PointY="20.5" />
+        <EntityTypeShape EntityType="DbModel.UserInstitution" Width="1.5" PointX="27.25" PointY="19.75" />
+        <AssociationConnector Association="DbModel.UsuarioUsuario_Rol" />
+        <AssociationConnector Association="DbModel.UsuarioHistorial_Experiencia" />
+        <AssociationConnector Association="DbModel.UsuarioEvaluacion" />
+        <AssociationConnector Association="DbModel.UsuarioExperiencia" />
+        <AssociationConnector Association="DbModel.UsuarioInstitucionUsuario" />
+        <AssociationConnector Association="DbModel.RolUsuario_Rol" />
+        <AssociationConnector Association="DbModel.RolRol_Permiso" />
+        <AssociationConnector Association="DbModel.PermisoRol_Permiso" />
+        <AssociationConnector Association="DbModel.EstadoHistorial_Experiencia" />
+        <AssociationConnector Association="DbModel.EvaluacionEstado" />
+        <AssociationConnector Association="DbModel.EvaluacionEvaluacion_Criterio" />
+        <AssociationConnector Association="DbModel.Evaluacion_CriterioCriterio" />
+        <AssociationConnector Association="DbModel.ExperienciaObjectivo" />
+        <AssociationConnector Association="DbModel.ExperienciaExperienciaGrupoPoblacional" />
+        <AssociationConnector Association="DbModel.ExperienciaGrupoPoblacionalGrupoPoblacional" />
+        <AssociationConnector Association="DbModel.ExperienciaVerificacion" />
+        <AssociationConnector Association="DbModel.ExperienciaGradoExperiencia" />
+        <AssociationConnector Association="DbModel.GradoExperienciaGrado" />
+        <AssociationConnector Association="DbModel.InstitucionExperiencia" />
+        <AssociationConnector Association="DbModel.InstitucionExperiencia1" />
+        <AssociationConnector Association="DbModel.UsuarioInstitucionInstitucion" />
+        <AssociationConnector Association="DbModel.DocumentoExperiencia" />
+        <AssociationConnector Association="DbModel.ExperienciaExperienciaLineaTematica" />
+        <AssociationConnector Association="DbModel.LineaTematicaExperienciaLineaTematica" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
