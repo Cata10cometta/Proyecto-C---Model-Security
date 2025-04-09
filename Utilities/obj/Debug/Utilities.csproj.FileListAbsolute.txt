@@ -1,0 +1,6 @@
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\bin\Debug\Utilities.dll
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\bin\Debug\Utilities.pdb
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\obj\Debug\Utilities.dll
+C:\Users\DELL\OneDrive\Desktop\ModelSecurityCata\Utilities\obj\Debug\Utilities.pdb

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagram", "Diagram2\Diagram.csproj", "{EFA4BB1C-F4A9-4589-9350-C424ABFB4237}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{F26253A5-B5D2-485D-ABD2-7488ADF59553}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{3635289F-179B-4683-A6D2-13A773F57A29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagram", "Diagrama-Experiencia\Diagram.csproj", "{55DDDF82-5D81-4482-AB45-41693B675BF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagram-Experience7", "Diagrama-Experiencia\Diagram-Experience7.csproj", "{55DDDF82-5D81-4482-AB45-41693B675BF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "WebApplication1\Web.csproj", "{D52E5DC9-2585-47C7-A775-4F25063DB482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{691792C6-8297-43BD-8104-CD2BB153B1E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFA4BB1C-F4A9-4589-9350-C424ABFB4237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA4BB1C-F4A9-4589-9350-C424ABFB4237}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA4BB1C-F4A9-4589-9350-C424ABFB4237}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA4BB1C-F4A9-4589-9350-C424ABFB4237}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,14 +33,18 @@ Global
 		{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3635289F-179B-4683-A6D2-13A773F57A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3635289F-179B-4683-A6D2-13A773F57A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3635289F-179B-4683-A6D2-13A773F57A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3635289F-179B-4683-A6D2-13A773F57A29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{55DDDF82-5D81-4482-AB45-41693B675BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55DDDF82-5D81-4482-AB45-41693B675BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55DDDF82-5D81-4482-AB45-41693B675BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55DDDF82-5D81-4482-AB45-41693B675BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52E5DC9-2585-47C7-A775-4F25063DB482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52E5DC9-2585-47C7-A775-4F25063DB482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52E5DC9-2585-47C7-A775-4F25063DB482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52E5DC9-2585-47C7-A775-4F25063DB482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691792C6-8297-43BD-8104-CD2BB153B1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691792C6-8297-43BD-8104-CD2BB153B1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691792C6-8297-43BD-8104-CD2BB153B1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691792C6-8297-43BD-8104-CD2BB153B1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

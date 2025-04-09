@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\diagrama-experiencia\\modelcata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|solutionrelative:diagrama-experiencia\\modelcata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelCata.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx",
+              "RelativeDocumentMoniker": "Diagrama-Experiencia\\ModelCata.edmx",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
+              "RelativeToolTip": "Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-03T02:09:00.48Z",
+              "EditorCaption": " [Diagram1]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
