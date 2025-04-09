@@ -1,9 +1,9 @@
 CREATE TABLE Experience (
     Id INT IDENTITY(1,1) PRIMARY KEY,
 	NameExperiences VARCHAR(50) NOT NULL,
-	Summary TEXT(500) NOT NULL,
-	Methodologies TEXT(500) NOT NULL,
-	[Transfer] TEXT(500) NOT NULL,
+	Summary NVARCHAR(500) NOT NULL,
+	Methodologies NVARCHAR(500) NOT NULL,
+	[Transfer] NVARCHAR(500) NOT NULL,
 	DateRegistration DATETIME2 NOT NULL DEFAULT GETDATE(),
 	Code CHAR(10) NOT NULL UNIQUE,
 	UserId INT NOT NULL,
@@ -81,10 +81,10 @@ CREATE TABLE ExperienceLineThematic (
 
 CREATE TABLE Objective (
     Id INT IDENTITY(1,1) PRIMARY KEY,
-	ObjectiveDescription TEXT(500) NOT NULL,
-	Innovation TEXT(500) NOT NULL,
-	Results TEXT(255) NOT NULL,
-	Sustainability  TEXT(255) NOT NULL,
+	ObjectiveDescription NVARCHAR(500) NOT NULL,
+	Innovation NVARCHAR(500) NOT NULL,
+	Results NVARCHAR(255) NOT NULL,
+	Sustainability  NVARCHAR(255) NOT NULL,
 	ExperienceId INT NULL,
 	
 )
@@ -94,9 +94,9 @@ CREATE TABLE Evaluation (
     Id INT  IDENTITY(1,1) PRIMARY KEY,
 	TypeEvaluation VARCHAR(100) NOT NULL,
 	Comments VARCHAR(255) NOT NULL,
-	[DateTime] DATETIME NOT NULL
-	UserId INT NULL,
-	ExperienceId INT NULL
+	[DateTime] DATETIME NOT NULL,
+	UserId INT NOT NULL,
+	ExperienceId INT NOT NULL
 	
 )
 
@@ -137,7 +137,7 @@ CREATE TABLE PopulationGarde (
 CREATE TABLE Verification (
     Id INT IDENTITY(1,1) PRIMARY KEY,
 	[Name] VARCHAR(50) NOT NULL,
-	[Description] TEXT(500) NOT NULL
+	[Description] NVARCHAR(500) NOT NULL
 )
 
 CREATE TABLE LineThematic (
