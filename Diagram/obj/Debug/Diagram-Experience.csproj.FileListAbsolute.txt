@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\bin\Debug\Diagrama-Experiencia.dll.config
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\bin\Debug\Diagrama-Experiencia.dll
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\bin\Debug\Diagrama-Experiencia.pdb
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\obj\Debug\Diagram-Experience.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\obj\Debug\Diagram-Experience.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\obj\Debug\Diagrama-Experiencia.dll
+C:\Users\DELL\Desktop\ModelSecurityCata\Diagrama-Experiencia\obj\Debug\Diagrama-Experiencia.pdb

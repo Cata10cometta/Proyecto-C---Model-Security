@@ -1,7 +1,0 @@
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\bin\Debug\Diagram2.dll.config
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\bin\Debug\Diagram2.dll
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\bin\Debug\Diagram2.pdb
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\obj\Debug\Diagram.csproj.AssemblyReference.cache
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\obj\Debug\Diagram2.dll
-C:\Users\DELL\Desktop\ModelSecurityCata\Diagram2\obj\Debug\Diagram2.pdb

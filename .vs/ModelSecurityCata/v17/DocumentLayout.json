@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\diagrama-experiencia\\modelcata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|c:\\users\\dell\\desktop\\modelsecuritycata\\diagrama-experiencia\\modelcata.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|solutionrelative:diagrama-experiencia\\modelcata.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|c:\\users\\dell\\desktop\\modelsecuritycata\\diagrama-experiencia\\modelcata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{55DDDF82-5D81-4482-AB45-41693B675BF0}|Diagrama-Experiencia\\Diagram.csproj|solutionrelative:diagrama-experiencia\\modelcata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -14,20 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModelCata.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx",
-              "RelativeDocumentMoniker": "Diagrama-Experiencia\\ModelCata.edmx",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
-              "RelativeToolTip": "Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-04-03T02:09:00.48Z",
-              "EditorCaption": " [Diagram1]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -39,6 +31,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelCata.tt",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.tt",
+              "RelativeDocumentMoniker": "Diagrama-Experiencia\\ModelCata.tt",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.tt",
+              "RelativeToolTip": "Diagrama-Experiencia\\ModelCata.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T23:29:42.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelCata.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx",
+              "RelativeDocumentMoniker": "Diagrama-Experiencia\\ModelCata.edmx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ModelSecurityCata\\Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
+              "RelativeToolTip": "Diagrama-Experiencia\\ModelCata.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-03T02:09:00.48Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }
